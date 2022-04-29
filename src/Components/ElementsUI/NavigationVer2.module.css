@@ -1,0 +1,10 @@
+.SecondNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 2.8rem;
+  gap: 2.2rem;
+  border-bottom: 0.2px solid #52525b25;
+  padding-bottom: 2rem;
+}

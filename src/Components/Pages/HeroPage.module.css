@@ -1,0 +1,70 @@
+.heroImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.heroImages img {
+  width: 100%;
+}
+
+.shopNowArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.shopLinksArea {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999999;
+  gap: 1rem;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 3.9rem;
+  margin-left: 0.5rem;
+  color: black;
+  opacity: 60%;
+}
+
+.shopBigLinks {
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  color: #27272adc;
+  transition: all 0.4s;
+}
+
+.shopSmallLinks {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  color: #27272adc;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: all 0.8s;
+}
+
+.shopSmallLinks:hover {
+  text-decoration-color: #27272a58;
+  transform: translateY(-2px);
+}
+
+.menPosition {
+  position: absolute;
+  left: 5.5rem;
+  bottom: 12.5rem;
+}
+
+.womenPosition {
+  position: absolute;
+  right: 38rem;
+  bottom: 12.5rem;
+}

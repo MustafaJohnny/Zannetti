@@ -1,0 +1,97 @@
+.modal {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  width: 77rem;
+  height: 33rem;
+  line-height: 1.9;
+  padding: 5rem 3rem;
+  border-radius: 3px;
+  transition: all 0.8s;
+  padding-left: 5.3rem;
+  background-color: #fafafa;
+  transform: translate(-50%, -50%);
+  z-index: 100000000000000000000000000;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  animation: openModall 0.5s ease-out forwards;
+}
+
+@keyframes openModall {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -100%);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.btn {
+  display: inline-block;
+  background-color: #d0aa65;
+  color: #fff;
+  font-size: 1.7rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  padding: 1rem 5rem;
+  margin-top: 4rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.btn:hover {
+  background-color: rgb(226, 169, 64);
+}
+
+.buttonArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address {
+  font-weight: 500;
+}
+
+.theMessage {
+  color: #18181b;
+  font-size: 2rem;
+  letter-spacing: 0.6px;
+  line-height: 4.5rem;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.userName {
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+  padding-bottom: 1rem;
+  margin-right: 0.4rem;
+  margin-left: 1rem;
+}
+
+.userName::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: linear-gradient(to top left, #c6963c, #f7a000);
+}

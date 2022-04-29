@@ -1,0 +1,121 @@
+.menSuits {
+  margin-top: 2.5rem;
+  display: flex;
+  overflow: hidden;
+  padding: 0 6rem;
+}
+
+.LinkStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: unset;
+}
+
+.menSuits img {
+  width: 76%;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 15%);
+  transition: all 0.8s;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.menSuits img:hover {
+  transform: scale(1.04);
+}
+
+.namePriceArea {
+  margin-top: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12.3rem;
+}
+
+.suitName {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #3f3f46;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.suitName::after {
+  content: "25% off";
+  display: block;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+  z-index: 999999999;
+  position: absolute;
+  bottom: 4rem;
+  left: 1.5rem;
+  background-color: #d0aa65;
+  border-radius: 2px;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.suitNameX {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #3f3f46;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.suitNameX::after {
+  content: "25% off";
+  display: block;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+  z-index: 999999999;
+  position: absolute;
+  bottom: 4rem;
+  left: 0.7rem;
+  background-color: #d0aa65;
+  border-radius: 2px;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.priceArea {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.price {
+  color: #991b1b;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.salePrice {
+  color: #71717a;
+  color: #a1a1aa;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.salePrice::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: #a1a1aa;
+  z-index: 9999999;
+  width: 3.6rem;
+  height: 0.15rem;
+  top: 0.9rem;
+}

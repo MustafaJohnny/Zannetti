@@ -1,0 +1,55 @@
+.lookButton {
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  background-color: #f4f4f5c9;
+  color: #3f3f46;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 15%);
+  transition: all 0.8s;
+  left: 22.2rem;
+  top: 42rem;
+  display: inline-block;
+  height: 5rem;
+  width: 15rem;
+  animation: openModall 0.5s ease-out forwards;
+}
+
+@keyframes openModall {
+  0% {
+    opacity: 0;
+    transform: translate(0%, 0%);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(0%, -30%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0%, 0%);
+  }
+}
+
+.lookButton2 {
+  transition: all 0.8s;
+  left: 69rem !important;
+}
+
+.lookButton3 {
+  left: 116rem !important;
+  transition: all 0.8s;
+}
+
+.lookButton:hover {
+  background-color: #f4f4f5f3;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+
+.lookButton:focus {
+  outline: none;
+}

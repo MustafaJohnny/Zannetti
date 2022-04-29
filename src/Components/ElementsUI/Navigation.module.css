@@ -1,0 +1,188 @@
+.mainLogo {
+  width: 25%;
+}
+
+.phoneNumber {
+  font-size: 1.7rem;
+  font-weight: 300;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.freeAdd {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8rem;
+  margin-top: 1.5rem;
+}
+
+.heroHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #d0aa65;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  transition: all 0.7s;
+  animation: openModall 0.7s ease-out forwards;
+}
+
+@keyframes openModall {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.logoSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.itemNumber {
+  background-color: #d0aa65;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: unset;
+}
+
+.navIcon {
+  width: 2.6rem;
+  height: 2.6rem;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.navIcon:hover {
+  transform: translateY(-2px);
+  opacity: 70%;
+}
+
+.mediaIcon {
+  width: 2.6rem;
+  height: 2.6rem;
+  transition: all 0.8s;
+  cursor: text;
+}
+
+.searchIcon {
+  cursor: text;
+}
+
+.mediaIcon:hover {
+  transform: translateY(-2px);
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoSide p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.contactNow {
+  border: none;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.3rem;
+  height: 3.3rem;
+  border-radius: 100%;
+  background-color: #d0aa65;
+  top: 70.5rem;
+  right: 2rem;
+  box-shadow: 0 1px 2px 1px rgb(0 0 0 / 30%);
+}
+
+.chatIcon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.SecondNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 2.8rem;
+  gap: 2.2rem;
+}
+
+.showModalBtn {
+  border: none;
+  background: none;
+  cursor: text;
+}
+
+.SecondNavLinks {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #52525b;
+  transition: all 0.8s;
+}
+
+.SecondNavLinks:hover {
+  color: #a1a1aa;
+}
+
+.luxiPhraseArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  background-image: linear-gradient(to left, #78716c79, #44403cc1);
+  padding-bottom: 1.2rem;
+  padding-top: 1.2rem;
+}
+
+.luxiPhrase {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #f5f5f4;
+}

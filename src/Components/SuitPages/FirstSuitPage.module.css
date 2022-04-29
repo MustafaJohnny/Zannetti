@@ -1,0 +1,256 @@
+img {
+  width: 102%;
+}
+
+.imagesArea {
+  display: flex;
+}
+
+.suitDetailsArea {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 47.5rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+  padding-right: 9.6rem;
+  padding-top: 2.7rem;
+}
+
+.SuitName {
+  margin-top: 1rem;
+  font-size: 2.1rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #3f3f46;
+  font-family: "Source Serif Pro", serif;
+}
+
+.colorHeading {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #3f3f46;
+  font-family: "Source Serif Pro", serif;
+}
+
+.suitBref {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  line-height: 1rem;
+  font-weight: 400;
+  color: #a1a1aa;
+  font-family: "Source Serif Pro", serif;
+}
+
+.suitPriceArea {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.codeArea {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.salePrice {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #a1a1aa;
+  font-family: "Source Serif Pro", serif;
+}
+
+.salePrice::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: #a1a1aa;
+  z-index: 9999999;
+  width: 3.6rem;
+  height: 0.15rem;
+  top: 30.3rem;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #52525b;
+  position: relative;
+  font-family: "Source Serif Pro", serif;
+}
+
+.suitCode {
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #a1a1aa;
+  font-family: "Source Serif Pro", serif;
+}
+
+.saleOff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #d0aa65;
+  width: 6rem;
+  font-family: "Source Serif Pro", serif;
+  box-shadow: 0 1px 1px 1px rgb(0 0 0 / 5%);
+}
+
+.code {
+  font-size: 1.5rem;
+}
+
+.sizeHeading {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #3f3f46;
+  font-family: "Source Serif Pro", serif;
+}
+
+.suitSizes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 2rem;
+  gap: 0.5rem;
+}
+
+.lengthSizes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 1.4rem;
+  gap: 0.5rem;
+}
+
+.size {
+  display: flex;
+  height: 4rem;
+  color: #52525b;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1.6rem;
+  border-radius: 3px;
+  line-height: 0.5rem;
+  align-items: center;
+  transition: all 0.8s;
+  justify-content: center;
+  border: 0.1px solid #3f3f4613;
+  box-shadow: 0 0 0 0.5px rgb(0 0 0 / 5%);
+  font-family: "Source Serif Pro", serif;
+}
+
+.size:hover {
+  border: 0.1px solid #3f3f4679;
+}
+
+.selectedOne {
+  color: #fff;
+  background-color: #d0aa65;
+}
+
+.solid {
+  background-color: #3f3f4613;
+  cursor: unset;
+}
+
+.solid:hover {
+  border: 0.1px none #3f3f4600;
+}
+
+.quantityHeading {
+  margin-top: 2.5rem;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: #3f3f46;
+  font-family: "Source Serif Pro", serif;
+}
+
+.quantityCounter {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.quanButton {
+  width: 3.5rem;
+  height: 3.5rem;
+  color: #3f3f46;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.8s;
+  background-color: transparent;
+  border: 0.1px solid #3f3f4613;
+  box-shadow: 0 0 0 0.5px rgb(0 0 0 / 5%);
+  font-family: "Source Serif Pro", serif;
+}
+
+.quanNum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 2px;
+  color: #3f3f46;
+  border: 0.1px solid #3f3f4613;
+  box-shadow: 0 0 0 0.5px rgb(0 0 0 / 5%);
+  font-family: "Source Serif Pro", serif;
+}
+
+.quanButton:hover {
+  border: 0.1px solid #3f3f464a;
+}
+
+.innerAddButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.addCartButton {
+  border: none;
+  cursor: pointer;
+  width: 49rem;
+  height: 4rem;
+  border-radius: 2.5px;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.8s;
+  background-color: #d0aa65;
+  font-family: "Source Serif Pro", serif;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+
+.addCartButton:hover {
+  background-color: #bb995b;
+}
+
+.addCartButton:focus {
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.addCartButton:disabled {
+  cursor: not-allowed;
+}

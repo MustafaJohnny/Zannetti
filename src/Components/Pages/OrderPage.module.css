@@ -1,0 +1,185 @@
+.orderArea {
+  top: 50%;
+  left: 50%;
+  gap: 8rem;
+  width: 72rem;
+  height: 43rem;
+  display: flex;
+  position: fixed;
+  border-radius: 3px;
+  padding-left: 10rem;
+  align-items: center;
+  transition: all 0.5s;
+  background-color: #fafafa;
+  transform: translate(-50%, -50%);
+  z-index: 100000000000000000000000000;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  animation: openModall 0.5s ease-out forwards;
+}
+
+@keyframes openModall {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -100%);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.orderHeading {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #3f3f46;
+  color: #fff;
+  text-align: center;
+}
+
+.orderHeading::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: linear-gradient(to top left, #c6963c, #f7a000);
+}
+
+.userLabel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #3f3f46;
+}
+
+.userInputs {
+  width: 20rem;
+  height: 3.3rem;
+  color: #52525b;
+  cursor: pointer;
+  font-weight: 400;
+  padding-left: 1rem;
+  font-size: 1.6rem;
+  border-radius: 3px;
+  transition: all 0.8s;
+  background-color: #fafafa;
+  background-color: rgba(255, 255, 255, 0.766);
+  border: 0.1px solid #3f3f4649;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.userInputs:focus {
+  outline: none;
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 8px rgba(101, 96, 96, 0.248);
+}
+
+.userData {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.elementsInner {
+  display: flex;
+  align-items: center;
+  gap: 14rem;
+}
+
+.qtyInner {
+  gap: 13.2rem;
+}
+
+.totalInner {
+  gap: 14.3rem;
+}
+
+.paymentInner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.summaryHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #3f3f46;
+}
+
+.payment {
+  font-size: 1.85rem;
+}
+
+.checkIcon {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+.summaryArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 17.8px;
+}
+
+.totalHeading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: #3f3f46;
+}
+
+.orderButton {
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 25rem;
+  height: 3.5rem;
+  border-radius: 2.5px;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.8s;
+  background-color: rgb(226, 169, 64);
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0 1.5px 2px rgb(0 0 0 / 20%);
+}
+
+.orderButton:hover {
+  background-color: rgb(227, 156, 25);
+}
+
+.orderButton:disabled {
+  cursor: not-allowed;
+}
+
+.btnCloseModal {
+  font-family: inherit;
+  color: inherit;
+  position: absolute;
+  top: 0.2rem;
+  right: 1.3rem;
+  font-size: 3.3rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
