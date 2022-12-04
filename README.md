@@ -1,4 +1,4 @@
-# Zannetti - SPA React Project
+# Zannetti - SPA React Practical Project
 
 ## Overview
 Zannetti SPA simulates the real experience of ecommerce, shopify clothing stores around the world. The user got a men clothes section and a women section as well. The user can pick one of the items in the website and then choose the needed size, length and then add it to the cart in order to buy it. In this project I wanted to bring it all together and put exactly everything I know about front-end development and use all the core features that I know about react, redux and react-router v6 specifically.
